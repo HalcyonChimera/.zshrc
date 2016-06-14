@@ -1,8 +1,6 @@
 # Z Shell Run Commands
 # Joshua Bird © 2014
-
-# @}~}~~~
-
+################################################################################
 
 # basic
 setopt no_beep # be quiet
@@ -54,8 +52,6 @@ alias ez="vim ~/.zshrc" # alias to edit .zshrc file
 alias ls="ls -FChl" # F gives symbols on filenames; C colorises; h gives filesize units; l gives long list
 alias -g chrome="/Applications/Chrome.app/Contents/MacOS/Google\ Chrome"
 alias -g nginx="/usr/local/nginx/sbin/nginx"
-
-
 
 export WORKON_HOME=/var/.virtualenvs
 #export WORKON_HOME=$HOME/.virtualenvs:$WORKON_HOME
